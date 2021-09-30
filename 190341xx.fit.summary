@@ -1,0 +1,12 @@
+Fitter Status : Successful - Wed Sep 29 08:44:02 2021
+Quartus II 64-Bit Version : 9.1 Build 222 10/21/2009 SJ Full Version
+Revision Name : 190341xx
+Top-level Entity Name : SHIXIAN
+Family : Cyclone
+Device : EP1C3T100C8
+Timing Models : Final
+Total logic elements : 330 / 2,910 ( 11 % )
+Total pins : 37 / 65 ( 57 % )
+Total virtual pins : 0
+Total memory bits : 15,360 / 59,904 ( 26 % )
+Total PLLs : 0 / 1 ( 0 % )

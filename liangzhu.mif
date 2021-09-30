@@ -1,0 +1,85 @@
+-- Copyright (C) 1991-2009 Altera Corporation
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, Altera MegaCore Function License 
+-- Agreement, or other applicable license agreement, including, 
+-- without limitation, that your use is for the sole purpose of 
+-- programming logic devices manufactured by Altera and sold by 
+-- Altera or its authorized distributors.  Please refer to the 
+-- applicable agreement for further details.
+
+-- Quartus II generated Memory Initialization File (.mif)
+
+WIDTH=8;
+DEPTH=256;
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=UNS;
+
+CONTENT BEGIN
+	0    :   00;
+	[1..2]  :   51;
+	[3..4]  :   57;
+	[5..6]  :   51;
+	[7..8]  :   64;
+	[9..10]  :   57;
+	[11..12]  :   72;
+	[13..14]  :   76;
+	15   :   85;
+	16   :   76;
+	17   :   72;
+	18   :   76;
+	[19..21]  :   64;
+	22   :   76;
+	23   :   85;
+	24   :   76;
+	25   :   64;
+	26   :   85;
+	27   :   76;
+	28   :   72;
+	29   :   76;
+	30   :   85;
+	[31..36]  :   96;
+	[37..38]  :   64;
+	[39..40]  :   101;
+	[41..42]  :   85;
+	[43..44]  :   114;
+	[45..46]  :   96;
+	[47..52]  :   128;
+	53   :   114;
+	54   :   96;
+	[55..62]  :   128;
+	[63..66]  :   152;
+	[67..69]  :   128;
+	70   :   114;
+	[71..73]  :   96;
+	74   :   85;
+	75   :   114;
+	76   :   96;
+	[77..78]  :   128;
+	[79..81]  :   64;
+	82   :   48;
+	83   :   57;
+	84   :   64;
+	85   :   76;
+	86   :   64;
+	[87..97]  :   85;
+	[98..100]  :   101;
+	[101..102]  :   114;
+	[103..105]  :   128;
+	106  :   114;
+	[107..108]  :   96;
+	[109..110]  :   85;
+	[111..112]  :   152;
+	[113..114]  :   96;
+	115  :   114;
+	116  :   128;
+	117  :   114;
+	118  :   96;
+	[119..126]  :   128;
+	[127..255]  :   0;
+END;

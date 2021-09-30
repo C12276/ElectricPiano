@@ -1,0 +1,123 @@
+-- Copyright (C) 1991-2009 Altera Corporation
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, Altera MegaCore Function License 
+-- Agreement, or other applicable license agreement, including, 
+-- without limitation, that your use is for the sole purpose of 
+-- programming logic devices manufactured by Altera and sold by 
+-- Altera or its authorized distributors.  Please refer to the 
+-- applicable agreement for further details.
+
+-- Quartus II generated Memory Initialization File (.mif)
+
+WIDTH=8;
+DEPTH=256;
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=UNS;
+
+CONTENT BEGIN
+	0    :   96;
+	1    :   1;
+	2    :   96;
+	3    :   1;
+	4    :   64;
+	5    :   1;
+	6    :   64;
+	7    :   1;
+	8    :   57;
+	9    :   1;
+	10   :   57;
+	11   :   1;
+	12   :   64;
+	[13..15]  :   1;
+	16   :   72;
+	17   :   1;
+	18   :   72;
+	19   :   1;
+	20   :   76;
+	21   :   1;
+	22   :   76;
+	23   :   1;
+	24   :   85;
+	25   :   1;
+	26   :   85;
+	27   :   1;
+	28   :   96;
+	[29..31]  :   1;
+	32   :   64;
+	33   :   1;
+	34   :   64;
+	35   :   1;
+	36   :   72;
+	37   :   1;
+	38   :   72;
+	39   :   1;
+	40   :   76;
+	41   :   1;
+	42   :   76;
+	43   :   1;
+	44   :   85;
+	[45..47]  :   1;
+	48   :   64;
+	49   :   1;
+	50   :   64;
+	51   :   1;
+	52   :   72;
+	53   :   1;
+	54   :   72;
+	55   :   1;
+	56   :   76;
+	57   :   1;
+	58   :   76;
+	59   :   1;
+	60   :   85;
+	[61..63]  :   1;
+	64   :   96;
+	65   :   1;
+	66   :   96;
+	67   :   1;
+	68   :   64;
+	69   :   1;
+	70   :   64;
+	71   :   1;
+	72   :   57;
+	73   :   1;
+	74   :   57;
+	75   :   1;
+	76   :   64;
+	[77..79]  :   1;
+	80   :   72;
+	81   :   1;
+	82   :   72;
+	83   :   1;
+	84   :   76;
+	85   :   1;
+	86   :   76;
+	87   :   1;
+	88   :   85;
+	89   :   1;
+	90   :   85;
+	91   :   1;
+	92   :   96;
+	[93..95]  :   1;
+	96   :   72;
+	97   :   1;
+	98   :   72;
+	99   :   1;
+	100  :   76;
+	101  :   1;
+	102  :   76;
+	103  :   1;
+	104  :   85;
+	105  :   1;
+	106  :   85;
+	107  :   1;
+	108  :   96;
+	[109..111]  :   1;
+	[112..255]  :   0;
+END;

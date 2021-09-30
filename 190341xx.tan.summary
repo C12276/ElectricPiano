@@ -1,0 +1,146 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 0.159 ns
+From           : KEY[6]
+To             : PLAY:inst23|MUSIC_CORE:inst6|lpm_counter0:inst5|lpm_counter:lpm_counter_component|cntr_n2j:auto_generated|safe_q[4]
+From Clock     : --
+To Clock       : SYS_CLOCK
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 50.321 ns
+From           : autoplay:inst5|MUSIC_CORE:inst3|inst
+To             : SPEAKER
+From Clock     : SYS_CLOCK
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 13.636 ns
+From           : KEY[2]
+To             : SPEAKER
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 3.741 ns
+From           : KEY[4]
+To             : PLAY:inst23|MUSIC_CORE:inst4|lpm_counter0:inst5|lpm_counter:lpm_counter_component|cntr_n2j:auto_generated|safe_q[9]
+From Clock     : --
+To Clock       : SYS_CLOCK
+Failed Paths   : 0
+
+Type           : Clock Setup: 'SYS_CLOCK'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 30.50 MHz ( period = 32.788 ns )
+From           : autoplay:inst5|lpm_rom5:inst19|altsyncram:altsyncram_component|altsyncram_vh31:auto_generated|q_a[7]
+To             : autoplay:inst5|MUSIC_CORE:inst3|lpm_counter0:inst5|lpm_counter:lpm_counter_component|cntr_n2j:auto_generated|safe_q[2]
+From Clock     : SYS_CLOCK
+To Clock       : SYS_CLOCK
+Failed Paths   : 0
+
+Type           : Clock Setup: 'KEY[11]'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 231.00 MHz ( period = 4.329 ns )
+From           : autoplay:inst5|MUSIC_CORE:inst3|inst
+To             : autoplay:inst5|MUSIC_CORE:inst3|inst
+From Clock     : KEY[11]
+To Clock       : KEY[11]
+Failed Paths   : 0
+
+Type           : Clock Setup: 'KEY[10]'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 254.07 MHz ( period = 3.936 ns )
+From           : autoplay:inst5|MUSIC_CORE:inst3|inst
+To             : autoplay:inst5|MUSIC_CORE:inst3|inst
+From Clock     : KEY[10]
+To Clock       : KEY[10]
+Failed Paths   : 0
+
+Type           : Clock Setup: 'KEY[12]'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 275.03 MHz ( period = 3.636 ns )
+From           : autoplay:inst5|MUSIC_CORE:inst3|inst
+To             : autoplay:inst5|MUSIC_CORE:inst3|inst
+From Clock     : KEY[12]
+To Clock       : KEY[12]
+Failed Paths   : 0
+
+Type           : Clock Setup: 'KEY[8]'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 275.03 MHz ( period = 3.636 ns )
+From           : LESSON8:inst4|inst13
+To             : LESSON8:inst4|inst13
+From Clock     : KEY[8]
+To Clock       : KEY[8]
+Failed Paths   : 0
+
+Type           : Clock Hold: 'SYS_CLOCK'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : autoplay:inst5|MUSIC_CORE:inst3|inst
+To             : autoplay:inst5|MUSIC_CORE:inst3|inst
+From Clock     : SYS_CLOCK
+To Clock       : SYS_CLOCK
+Failed Paths   : 8
+
+Type           : Clock Hold: 'KEY[11]'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : autoplay:inst5|MUSIC_CORE:inst3|inst
+To             : autoplay:inst5|MUSIC_CORE:inst3|inst
+From Clock     : KEY[11]
+To Clock       : KEY[11]
+Failed Paths   : 1
+
+Type           : Clock Hold: 'KEY[10]'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : autoplay:inst5|MUSIC_CORE:inst3|inst
+To             : autoplay:inst5|MUSIC_CORE:inst3|inst
+From Clock     : KEY[10]
+To Clock       : KEY[10]
+Failed Paths   : 1
+
+Type           : Clock Hold: 'KEY[12]'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : autoplay:inst5|MUSIC_CORE:inst3|inst
+To             : autoplay:inst5|MUSIC_CORE:inst3|inst
+From Clock     : KEY[12]
+To Clock       : KEY[12]
+Failed Paths   : 1
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 11
+
+--------------------------------------------------------------------------------------
+
